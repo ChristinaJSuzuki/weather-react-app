@@ -59,11 +59,19 @@ function App() {
                       9
                     </span>
                     <span class="units" style={{ fontSize: "18pt" }}>
-                      <a href="_blank" id="celsius-link">
+                      <a
+                        href="_blank"
+                        id="celsius-link"
+                        className="text-decoration-none"
+                      >
                         °C{" "}
                       </a>
                       |
-                      <a href="_blank" id="fahrenheit-link">
+                      <a
+                        href="_blank"
+                        id="fahrenheit-link"
+                        className="text-decoration-none"
+                      >
                         °F
                       </a>
                     </span>
