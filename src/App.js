@@ -59,21 +59,21 @@ function App() {
                       9
                     </span>
                     <span class="units" style={{ fontSize: "18pt" }}>
-                      <a href="#" id="celsius-link">
+                      <a href="_blank" id="celsius-link">
                         °C{" "}
                       </a>
                       |
-                      <a href="#" id="fahrenheit-link">
+                      <a href="_blank" id="fahrenheit-link">
                         °F
                       </a>
                     </span>
                   </div>
-                  <div class="littlestars">
+                  <div className="littlestars">
                     <img
                       src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
                       alt="Clear"
                       id="icon"
-                      class="float-left"
+                      className="float-left"
                     />
                   </div>
                 </h1>
@@ -100,10 +100,11 @@ function App() {
             </div>
           </div>
         </div>
-        <span class="github-link">
+        <span className="github-link">
           <a
-            href="https://github.com/ChristinaJSuzuki/vanilla-weather-app.git"
+            href="https://github.com/ChristinaJSuzuki/weather-react-app.git"
             target="_blank"
+            rel="noreferrer"
           >
             Open-source code
           </a>
