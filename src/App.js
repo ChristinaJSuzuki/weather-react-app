@@ -105,6 +105,7 @@ function App() {
             href="https://github.com/ChristinaJSuzuki/weather-react-app.git"
             target="_blank"
             rel="noreferrer"
+            className="text-decoration-none"
           >
             Open-source code
           </a>{" "}
