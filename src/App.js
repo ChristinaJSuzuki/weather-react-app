@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
-        <div class="vanilla-weather-app-wrapper">
+        <Weather defaultCity="London" />
+        <div className="vanilla-weather-app-wrapper">
           <footer className="github-link">
             <a
               href="https://github.com/ChristinaJSuzuki/weather-react-app.git"
