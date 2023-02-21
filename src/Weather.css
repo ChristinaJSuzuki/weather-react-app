@@ -80,6 +80,10 @@
     background-color: rgb(154, 166, 223);
 }
 
+.Weather img {
+    display: inline-block;
+}
+
 .Weather button:hover span {
     padding-right: 25px;
 }
