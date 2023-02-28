@@ -155,3 +155,16 @@
 .Weather ul {
     padding-left: 0;
 }
+
+.Weather p {
+    text-align: left;
+}
+
+.description {
+    text-align: left;
+}
+
+.london {
+    text-align: left;
+    margin-bottom: 37px;
+}
